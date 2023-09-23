@@ -39,10 +39,12 @@ a{
     font-size: 48px;
     color: #F9F1F8;
     font-weight: bold;
+    max-width: 444px;
 }
 .text{
     font-size: 18px;
     color: #E5E7EB;
+    max-width: 444px;
 }
 
 .menu2{
@@ -62,4 +64,33 @@ button{
     border-radius: 8px;
     border: none;
     margin-top: 7px;
+}
+
+.h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.boxes{
+    color: #1F2937;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.square{
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+.section2-2{
+    color: #1F2937;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
 }
