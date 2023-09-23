@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .first-section{
@@ -14,11 +15,20 @@ display: flex;
 justify-content: space-between;
 margin-left: 100px;
 margin-right: 100px;
+padding: 15px;
 }
 
 ul{
     display: flex;
     list-style: none;
+    gap: 25px;
+    margin-right: 140px;
+}
+
+.logo{
+    margin-left: 140px;
+    color: #F9F1F8;
+    font-size: 24px;
 }
 
 a{
@@ -28,7 +38,7 @@ a{
 .title{
     font-size: 48px;
     color: #F9F1F8;
-    font-weight: bolder;
+    font-weight: bold;
 }
 .text{
     font-size: 18px;
@@ -37,9 +47,19 @@ a{
 
 .menu2{
     display: flex;
-    margin-left: 100px;
-    margin-right: 100px;
+    justify-content: space-around;
+   padding: 100px;
 }
-.menuright{
-    min-width: 200px;
+img{
+    max-height: 270px;
+    margin-right: 50px;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    padding: 13px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 7px;
 }
