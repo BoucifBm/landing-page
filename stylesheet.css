@@ -115,5 +115,37 @@ p{
     align-self: flex-end;
 }
 
+.section-four{
+    padding: 100px;
+}
+
+.border{
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #F9F1F8;
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+}
+
+.tt{
+    background-color: #3882F6;
+    color: white;
+    padding: 13px;
+    border-radius: 8px;
+    border: 2px solid white;
+    width: 120pxpx;
+}
+
+.kk{
+   font-size: 18px;
+   color: #F9F1F8;
+}
+h3{
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+
 
     
